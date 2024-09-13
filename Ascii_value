@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Ascii_value {
+    public static void main(String[] args){
+        char a;
+        int p;
+        Scanner sc=new Scanner(System.in);
+        a=sc.next().charAt(0);
+        p=(int)a;
+        System.out.println("Ascii value "+p);
+    }
+
+}
